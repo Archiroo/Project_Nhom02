@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android/Project_Nhom02/app/src/main/res/drawable/btn_bg.xml" value="0.116" />
+        <entry key="..\:/Android/Project_Nhom02/app/src/main/res/drawable/ic_email.xml" value="0.116" />
+        <entry key="..\:/Android/Project_Nhom02/app/src/main/res/drawable/ic_person.xml" value="0.116" />
+        <entry key="..\:/Android/Project_Nhom02/app/src/main/res/drawable/ic_security.xml" value="0.116" />
         <entry key="..\:/Android/Project_Nhom02/app/src/main/res/drawable/input_bg.xml" value="0.11" />
         <entry key="..\:/Android/Project_Nhom02/app/src/main/res/layout/activity_login.xml" value="0.20416666666666666" />
         <entry key="..\:/Android/Project_Nhom02/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
