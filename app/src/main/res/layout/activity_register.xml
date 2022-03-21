@@ -11,7 +11,7 @@
         android:id="@+id/logo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Register"
+        android:text="ĐĂNG KÝ"
         android:textColor="@color/colorWhite"
         android:textSize="36sp"
         android:textStyle="bold"
@@ -22,7 +22,7 @@
         app:layout_constraintVertical_bias="0.13" />
 
     <EditText
-        android:id="@+id/inputUsername"
+        android:id="@+id/input_Register_Username"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -32,7 +32,7 @@
         android:drawableLeft="@drawable/ic_person"
         android:drawablePadding="10dp"
         android:ems="10"
-        android:hint="Username"
+        android:hint="Họ và tên"
         android:inputType="textPersonName"
         android:paddingLeft="20dp"
         android:paddingTop="10dp"
@@ -45,15 +45,15 @@
         app:layout_constraintTop_toBottomOf="@+id/logo" />
 
     <EditText
-        android:id="@+id/inputEmail"
+        android:id="@+id/input_Register_Phone"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:background="@drawable/input_bg"
-        android:drawableLeft="@drawable/ic_email"
+        android:drawableLeft="@drawable/ic_phone"
         android:drawablePadding="10dp"
         android:ems="10"
-        android:hint="Email"
+        android:hint="Số điện thoại"
         android:inputType="textPersonName"
         android:paddingLeft="20dp"
         android:paddingTop="10dp"
@@ -61,9 +61,9 @@
         android:paddingBottom="10dp"
         android:textColor="@color/colorWhite"
         android:textColorHint="@color/colorWhite"
-        app:layout_constraintEnd_toEndOf="@+id/inputUsername"
-        app:layout_constraintStart_toStartOf="@+id/inputUsername"
-        app:layout_constraintTop_toBottomOf="@+id/inputUsername" />
+        app:layout_constraintEnd_toEndOf="@+id/input_Register_Username"
+        app:layout_constraintStart_toStartOf="@+id/input_Register_Username"
+        app:layout_constraintTop_toBottomOf="@+id/input_Register_Username" />
 
     <EditText
         android:id="@+id/inputPassword"
@@ -82,9 +82,9 @@
         android:paddingBottom="10dp"
         android:textColor="@color/colorWhite"
         android:textColorHint="@color/colorWhite"
-        app:layout_constraintEnd_toEndOf="@+id/inputEmail"
-        app:layout_constraintStart_toStartOf="@+id/inputEmail"
-        app:layout_constraintTop_toBottomOf="@+id/inputEmail" />
+        app:layout_constraintEnd_toEndOf="@+id/input_Register_Phone"
+        app:layout_constraintStart_toStartOf="@+id/input_Register_Phone"
+        app:layout_constraintTop_toBottomOf="@+id/input_Register_Phone" />
 
     <EditText
         android:id="@+id/inputConformPassword"
@@ -113,7 +113,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:background="@drawable/btn_bg"
-        android:text="Register"
+        android:text="ĐĂNG KÝ"
         app:layout_constraintEnd_toEndOf="@+id/inputConformPassword"
         app:layout_constraintStart_toStartOf="@+id/inputConformPassword"
         app:layout_constraintTop_toBottomOf="@+id/inputConformPassword" />
@@ -124,7 +124,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:shadowColor="@color/colorWhite"
-        android:text="Already Have an Account?"
+        android:text="Bạn đã có tài khoản?"
         android:textColor="@color/colorWhite"
         app:layout_constraintEnd_toEndOf="@+id/btnRegister"
         app:layout_constraintStart_toStartOf="@+id/btnRegister"
